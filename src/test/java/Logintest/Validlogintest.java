@@ -1,15 +1,14 @@
 package Logintest;
 
 import allbrowserSetup.FirstCodeSetup;
-import controller.LoginControler;
-import org.junit.Test;
+import controller.LoginController;
 
 public class Validlogintest extends FirstCodeSetup{
-LoginControler logincontroller;
+LoginController logincontroller;
 @org.testng.annotations.Test
 
 public void verifyLogInInputProperty(){
-logincontroller=new LoginControler(driver);
+logincontroller=new LoginController(driver);
 logincontroller.LogInValidation();
 }
 }

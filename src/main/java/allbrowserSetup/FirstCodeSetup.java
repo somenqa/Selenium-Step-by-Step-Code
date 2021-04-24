@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+
 
 public class FirstCodeSetup {
     public WebDriver driver;
@@ -18,6 +18,7 @@ public class FirstCodeSetup {
         //driver.quit();
 
     @BeforeTest
+
     public void chromebrowser() {
         System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver");
         driver = new ChromeDriver();
@@ -37,8 +38,6 @@ public class FirstCodeSetup {
         //WebDriver driver =new ChromeDriver();
        // driver.get("http://automationpractice.com/index.php");
         //driver.quit();
-
-
 
 
 
