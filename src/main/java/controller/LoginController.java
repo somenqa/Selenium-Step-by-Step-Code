@@ -15,7 +15,7 @@ public class LoginController {
     public LoginController(WebDriver driver){
         PageFactory.initElements(driver,this);
     }
-public void LogInValidation(){
+   public void LogInValidation(){
         signInbutton.isDisplayed();
         signInbutton.click();
         inputEmail.sendKeys("somen@yahoo.com");
