@@ -1,4 +1,4 @@
-package allbrowserSetup;
+package Base;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
 
-public class FirstCodeSetup {
+public class ScriptBase {
     public WebDriver driver;
 
     @Parameters("browser")

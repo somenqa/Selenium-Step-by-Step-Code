@@ -1,10 +1,10 @@
 package LocatorFinder;
 
-import allbrowserSetup.FirstCodeSetup;
+import Base.ScriptBase;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class ValidTest extends FirstCodeSetup{
+public class ValidTest extends ScriptBase {
 
     @Test
     public void automation() {
