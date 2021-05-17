@@ -10,7 +10,6 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
-
 public class ScriptBase {
     public WebDriver driver;
 
@@ -35,6 +34,7 @@ public class ScriptBase {
     }
     @AfterTest
     public void endTest(){
+
         driver.quit();
     }
 }

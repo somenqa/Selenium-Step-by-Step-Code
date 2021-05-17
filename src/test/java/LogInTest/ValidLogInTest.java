@@ -1,10 +1,10 @@
-package Logintest;
+package LogInTest;
 
 import Base.ScriptBase;
 import controller.LoginController;
 import org.testng.annotations.Test;
 
-public class Validlogintest extends ScriptBase {
+public class ValidLogInTest extends ScriptBase {
 LoginController logincontroller;
 
 @Test

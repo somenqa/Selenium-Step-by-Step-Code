@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginController {
     @FindBy(xpath = "//*[@id='header']/div[2]/div/div/nav/div[1]/a")
-    WebElement signInbutton;
+    WebElement signInButton;
     @FindBy(id = "email")
     WebElement inputEmail;
     @FindBy(id = "passwd")
@@ -16,8 +16,8 @@ public class LoginController {
         PageFactory.initElements(driver,this);
     }
    public void LogInValidation(){
-        signInbutton.isDisplayed();
-        signInbutton.click();
+        signInButton.isDisplayed();
+        signInButton.click();
         inputEmail.sendKeys("somen@yahoo.com");
         inputPass.sendKeys("12345");
 
