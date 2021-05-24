@@ -19,7 +19,7 @@ public class LoginController {
         signInButton.isDisplayed();
         signInButton.click();
         inputEmail.sendKeys("somen@yahoo.com");
-        inputPass.sendKeys("12345");
+        inputPass.sendKeys("123456");
 
     }
 }
