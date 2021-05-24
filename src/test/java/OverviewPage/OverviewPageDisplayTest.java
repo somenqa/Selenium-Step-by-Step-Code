@@ -5,71 +5,71 @@ import controller.OverViewPageController;
 import org.testng.annotations.Test;
 
 public class OverviewPageDisplayTest extends ScriptBase {
-    OverViewPageController OverviewPageController;
+    OverViewPageController overViewPageController;
 
     @Test
-    public void verifySpecialTextDisplayedInOverViewPage() {
-        OverviewPageController = new OverViewPageController(driver);
-        OverviewPageController.OverViewPageInfo(driver, "Specials");
+    public void verifySpecialsTextDisplayedInOverviewPage() {
+        overViewPageController= new OverViewPageController(driver);
+        overViewPageController.OverViewPageInfo(driver, "Specials");
     }
     @Test
-    public void VerifyNewProductsTextDisplayedInOverViewPage() {
-        OverviewPageController = new OverViewPageController(driver);
-        OverviewPageController.OverViewPageInfo(driver, "New Products");
+    public void VerifyNewProductTextDisplayedInOverViewPage() {
+        overViewPageController = new OverViewPageController(driver);
+        overViewPageController.OverViewPageInfo(driver, "New products");
     }
     @Test
     public void VerifyBestSellersTextDisplayedInOverViewPage(){
-    OverviewPageController=new OverViewPageController(driver);
-    OverviewPageController.OverViewPageInfo(driver, "Best Sellers");
+    overViewPageController=new OverViewPageController(driver);
+    overViewPageController.OverViewPageInfo(driver, "Best sellers");
     }
     @Test
-    public void verifyMyPersonalInfoTextDisplayedInOverViewPage(){
-    OverviewPageController=new OverViewPageController(driver);
-    OverviewPageController.OverViewPageInfo(driver, "My Personal Info");
+    public void VerifyMyPersonalInfoTextDisplayedInOverViewPage(){
+    overViewPageController=new OverViewPageController(driver);
+    overViewPageController.OverViewPageInfo(driver, "My personal info");
     }
     @Test
-    public void verifyOurStoresTextDisplayedInOverViewPage(){
-        OverviewPageController=new OverViewPageController(driver);
-        OverviewPageController.OverViewPageInfo(driver, "Our Stores");
+    public void VerifyOurStoresTextDisplayedInOverViewPage(){
+        overViewPageController=new OverViewPageController(driver);
+        overViewPageController.OverViewPageInfo(driver, "Our stores");
     }
     @Test
-    public void verifyContactUsTextDisplayedInOverViewPage() {
-        OverviewPageController = new OverViewPageController(driver);
-        OverviewPageController.OverViewPageInfo(driver, "Contact Us");
+    public void VerifyContactusTextDisplayedInOverViewPage() {
+        overViewPageController = new OverViewPageController(driver);
+        overViewPageController.OverViewPageInfo(driver, "Contact us");
     }
     @Test
-    public void verifyTermsAndConditionsOfUseTextDisplayedInOverViewPage() {
-        OverviewPageController = new OverViewPageController(driver);
-        OverviewPageController.OverViewPageInfo(driver, "Terms And Condition Of Use");
+    public void VerifyTermsAndConditionOfUseTextDisplayedInOverViewPage() {
+        overViewPageController = new OverViewPageController(driver);
+        overViewPageController.OverViewPageInfo(driver, "Terms and conditions of use");
     }
     @Test
-    public void verifyAboutUsTextDisplayedInOverViewPage(){
-        OverviewPageController=new OverViewPageController(driver);
-        OverviewPageController.OverViewPageInfo(driver, "About Us");
+    public void VerifyAboutUsTextDisplayedInOverViewPage(){
+        overViewPageController=new OverViewPageController(driver);
+        overViewPageController.OverViewPageInfo(driver, "About us");
     }
     @Test
-    public void verifySiteMapTextDisplayedInOverViewPage() {
-        OverviewPageController = new OverViewPageController(driver);
-        OverviewPageController.OverViewPageInfo(driver, "SiteMap");
+    public void VerifySitemapTextDisplayedInOverViewPage() {
+        overViewPageController = new OverViewPageController(driver);
+        overViewPageController.OverViewPageInfo(driver, "Sitemap");
     }
     @Test
-    public void verifyMyAddressTextDisplayedInOverViewPage() {
-        OverviewPageController = new OverViewPageController(driver);
-        OverviewPageController.OverViewPageInfo(driver, "My Address");
+    public void VerifyMyAddressTextInOverViewPage() {
+        overViewPageController = new OverViewPageController(driver);
+        overViewPageController.OverViewPageInfo(driver, "My addresses");
     }
     @Test
-    public void verifyMyOrdersTextDisplayedInOverViewPage() {
-        OverviewPageController = new OverViewPageController(driver);
-        OverviewPageController.OverViewPageInfo(driver, "My Orders");
+    public void VerifyMyOrdersTestDisplayedInOverViewPage() {
+        overViewPageController = new OverViewPageController(driver);
+        overViewPageController.OverViewPageInfo(driver, "My orders");
     }
     @Test
-    public void verifyMyCreditSlipsTextDisplayedInOverViewPage() {
-        OverviewPageController = new OverViewPageController(driver);
-        OverviewPageController.OverViewPageInfo(driver, "My Credit Slips");
+    public void VerifyMyCreditSlipsTextDisplayedInOverViewPage() {
+        overViewPageController = new OverViewPageController(driver);
+        overViewPageController.OverViewPageInfo(driver, "My credit slips");
     }
     @Test
-    public void verifyMyWomenTextDisplayedInOverViewPage() {
-        OverviewPageController = new OverViewPageController(driver);
-        OverviewPageController.OverViewPageInfo(driver, "Women");
+    public void VerifyWomenTextDisplayedInOverViewPage() {
+        overViewPageController= new OverViewPageController(driver);
+        overViewPageController.OverViewPageInfo(driver, "Women");
     }
 }
