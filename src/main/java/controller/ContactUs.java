@@ -19,7 +19,7 @@ public ContactUs(WebDriver driver){
 }
 public void contactUsButton(){
  contactus.click();
- inputEmail.sendKeys("somen.dasqa@gmail");
+ inputEmail.sendKeys("somen.dasqa@gmail.com");
  inputReference.sendKeys("1234567");
  sendButton.click();
 }

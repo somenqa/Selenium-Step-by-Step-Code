@@ -4,7 +4,42 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c39852fd-4bb5-4eae-8665-98868b871a36" name="Default" comment="New code for selenium" />
+    <list default="true" id="c39852fd-4bb5-4eae-8665-98868b871a36" name="Default" comment="New code for selenium">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aventstack_extentreports_4_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_relevantcodes_extentreports_2_41_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_14_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_14_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_8_11_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeleniumCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumCode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Base/ScriptBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/ScriptBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ContactUs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ContactUs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/OverViewPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/OverViewPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OverviewPage/OverviewPageDisplayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OverviewPage/OverviewPageDisplayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testng_listener/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testng_listener/Listener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Base/ScriptBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Base/ScriptBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/ContactUs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/ContactUs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/OverViewPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/OverViewPageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ContactUsTest/ContactUsClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ContactUsTest/ContactUsClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LocatorFinder/ValidTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LocatorFinder/ValidTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LogInTest/ValidLogInTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LogInTest/ValidLogInTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/OverviewPage/OverviewPageDisplayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/OverviewPage/OverviewPageDisplayTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_listener/Listener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng_listener/Listener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +55,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -33,15 +69,25 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/controller/ContactUs.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/Base/ScriptBase.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/testng_listener/Listener.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/java/OverviewPage/OverviewPageDisplayTest.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/testng.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/Resources/TestSuits/testng.xml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/controller/OverViewPageController.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -197,17 +243,19 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/Resources/TestSuits" />
+      <recent name="$PROJECT_DIR$/src/test/Resources" />
       <recent name="$PROJECT_DIR$/drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/dipika.das/Documents/UI/SeleniumCode/testng.xml">
+  <component name="RunManager" selected="TestNG./Users/dipika.das/Documents/UI/SeleniumCode/src/test/Resources/TestSuits/testng.xml">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -229,15 +277,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in SeleniumCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -326,17 +365,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidProductSearch" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LocatorFinder.*" />
+          <option name="PATTERN" value="SearchTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="LocatorFinder" />
-      <option name="MAIN_CLASS_NAME" value="LocatorFinder.ValidTest" />
+      <option name="PACKAGE_NAME" value="SearchTest" />
+      <option name="MAIN_CLASS_NAME" value="SearchTest.ValidProductSearch" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/dipika.das/Documents/UI/SeleniumCode/src/test/Resources/TestSuits/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumCode" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/Resources/TestSuits/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -374,20 +424,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.All in SeleniumCode" />
       <item itemvalue="TestNG./Users/dipika.das/Documents/UI/SeleniumCode/testng.xml" />
-      <item itemvalue="TestNG.ValidTest" />
       <item itemvalue="TestNG.ValidLogInTest" />
       <item itemvalue="TestNG.OverviewPageDisplayTest.verifyMyWomenTextDisplayedInOverViewPage" />
       <item itemvalue="TestNG.ContactUsClass." />
+      <item itemvalue="TestNG.ValidProductSearch" />
+      <item itemvalue="TestNG./Users/dipika.das/Documents/UI/SeleniumCode/src/test/Resources/TestSuits/testng.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/dipika.das/Documents/UI/SeleniumCode/src/test/Resources/TestSuits/testng.xml" />
+        <item itemvalue="TestNG.ValidProductSearch" />
         <item itemvalue="TestNG.ContactUsClass." />
         <item itemvalue="TestNG.OverviewPageDisplayTest.verifyMyWomenTextDisplayedInOverViewPage" />
         <item itemvalue="TestNG.ValidLogInTest" />
-        <item itemvalue="TestNG.ValidTest" />
-        <item itemvalue="JUnit.All in SeleniumCode" />
       </list>
     </recent_temporary>
   </component>
